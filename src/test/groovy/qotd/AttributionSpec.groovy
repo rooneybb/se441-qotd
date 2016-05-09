@@ -6,8 +6,8 @@ import spock.lang.Specification
 /**
  * See the API for {@link grails.test.mixin.domain.DomainClassUnitTestMixin} for usage instructions
  */
-@TestFor(Quote)
-class QuoteSpec extends Specification {
+@TestFor(Attribution)
+class AttributionSpec extends Specification {
 
     def setup() {
     }
@@ -15,14 +15,14 @@ class QuoteSpec extends Specification {
     def cleanup() {
     }
 
-    def "test for valid quote text"() {
-		when: 'text is empty'
-		def p = new Quote(text: '')
+    def "test for valid attribution name"() {
+		when: ’name is empty’
+		def p = new Attribution(name: ’’)
 
 		then: ’validation should fail’
 		!p.validate()
-		// TODO: add new tests for null text (should fail) and
-		// legal text (should pass)
+		// TODO: add new tests for null name (should fail) and
+		// legal name (should pass)
 }
 
 }
