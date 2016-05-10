@@ -4,7 +4,8 @@ buildscript {
     }
     repositories {
         mavenLocal()
-        maven { url "http://localhost:8081/nexus/content/groups/public/" }
+        maven { url "http://localhost:8081/nexus/content/groups/public/" 
+				}
     }
     dependencies {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
@@ -108,4 +109,5 @@ properties {
 property "sonar.sources", "grails-app"
 }
 }
+
 

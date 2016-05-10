@@ -19,10 +19,29 @@ class QuoteSpec extends Specification {
 		when: 'text is empty'
 		def p = new Quote(text: '')
 
-		then: ’validation should fail’
+		then: 'validation should fail'
 		!p.validate()
-		// TODO: add new tests for null text (should fail) and
-		// legal text (should pass)
-}
+		}
+		
+	def "test for null text"(){
+		when: 
+			def x = new Quote(text: '12$@ 34')
+		
+		then: 'validation should fail'
+			!x.validate()
+	}
+		
+		def "test for legal text"(){
+		when: 'text is legal'
+			def x = new Quote(text: 'legal') 
+		
+		then: 
+			x.validate();
+		}
+	}
+	
 
-}
+
+	
+
+
