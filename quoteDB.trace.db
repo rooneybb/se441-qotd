@@ -1,0 +1,6 @@
+2016-05-02 22:25:53 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "QUOTE" not found; SQL statement:
+select count(*) as y0_ from quote this_ [42102-191]
+2016-05-02 23:17:38 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+select count(*) from PUBLIC.DATABASECHANGELOGLOCK [42102-191]
