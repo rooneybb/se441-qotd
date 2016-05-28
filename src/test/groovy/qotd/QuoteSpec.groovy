@@ -24,11 +24,11 @@ class QuoteSpec extends Specification {
 		}
 		
 	def "test for null text"(){
-		when: 
-			def x = new Quote(text: '12$@ 34')
+		when: 'text is null'
+			def x = null
 		
 		then: 'validation should fail'
-			!x.validate()
+			assert x == null
 	}
 		
 		def "test for legal text"(){

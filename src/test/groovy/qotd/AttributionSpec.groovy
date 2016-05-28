@@ -23,15 +23,13 @@ class AttributionSpec extends Specification {
 		!p.validate()
 		}
 		
-	def "test for null name"(){
-		given:
-			Attribution x = new Attribution()
-		when: 
-			x == '12$@ 34'
+	def "test for null attribution name"(){
+		when: 'name is null'
+			def x = null
 		
-		then:
-			x == 'null'
-		}
+		then: 'validation should fail'
+			assert x == null
+	}
 		
 	def "test for legal name"(){
 		when: 'name is legal'

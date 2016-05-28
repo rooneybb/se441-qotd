@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="qotd.AttributionSpec" tests="3" skipped="0" failures="1" errors="0" timestamp="2016-05-17T03:34:24" hostname="BROON-LT" time="0.274">
+<testsuite name="qotd.AttributionSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-05-28T00:59:18" hostname="BROON-LT" time="0.255">
   <properties/>
-  <testcase name="test for valid attribution name" classname="qotd.AttributionSpec" time="0.246"/>
-  <testcase name="test for null name" classname="qotd.AttributionSpec" time="0.02">
-    <failure message="Condition not satisfied:&#10;&#10;x == 'null'&#10;| |&#10;| false&#10;qotd.Attribution : (unsaved)&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
-
-x == 'null'
-| |
-| false
-qotd.Attribution : (unsaved)
-
-	at qotd.AttributionSpec.test for null name(AttributionSpec.groovy:33)
-</failure>
-  </testcase>
-  <testcase name="test for legal name" classname="qotd.AttributionSpec" time="0.007"/>
+  <testcase name="test for valid attribution name" classname="qotd.AttributionSpec" time="0.241"/>
+  <testcase name="test for null attribution name" classname="qotd.AttributionSpec" time="0.006"/>
+  <testcase name="test for legal name" classname="qotd.AttributionSpec" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="qotd.AttributionControllerSpec" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-05-17T03:34:18" hostname="BROON-LT" time="5.022">
+<testsuite name="qotd.AttributionControllerSpec" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-05-28T00:59:14" hostname="BROON-LT" time="4.058">
   <properties/>
-  <testcase name="Test the index action returns the correct model" classname="qotd.AttributionControllerSpec" time="4.562"/>
-  <testcase name="Test the create action returns the correct model" classname="qotd.AttributionControllerSpec" time="0.102"/>
-  <testcase name="Test the save action correctly persists an instance" classname="qotd.AttributionControllerSpec" time="0.244"/>
-  <testcase name="Test that the show action returns the correct model" classname="qotd.AttributionControllerSpec" time="0.015"/>
-  <testcase name="Test that the edit action returns the correct model" classname="qotd.AttributionControllerSpec" time="0.011"/>
-  <testcase name="Test the update action performs an update on a valid domain instance" classname="qotd.AttributionControllerSpec" time="0.058"/>
-  <testcase name="Test that the delete action deletes an instance if it exists" classname="qotd.AttributionControllerSpec" time="0.029"/>
+  <testcase name="Test the index action returns the correct model" classname="qotd.AttributionControllerSpec" time="3.677"/>
+  <testcase name="Test the create action returns the correct model" classname="qotd.AttributionControllerSpec" time="0.083"/>
+  <testcase name="Test the save action correctly persists an instance" classname="qotd.AttributionControllerSpec" time="0.199"/>
+  <testcase name="Test that the show action returns the correct model" classname="qotd.AttributionControllerSpec" time="0.014"/>
+  <testcase name="Test that the edit action returns the correct model" classname="qotd.AttributionControllerSpec" time="0.01"/>
+  <testcase name="Test the update action performs an update on a valid domain instance" classname="qotd.AttributionControllerSpec" time="0.046"/>
+  <testcase name="Test that the delete action deletes an instance if it exists" classname="qotd.AttributionControllerSpec" time="0.028"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

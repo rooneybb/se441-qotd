@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="qotd.QuoteSpec" tests="3" skipped="0" failures="1" errors="0" timestamp="2016-05-17T03:34:25" hostname="BROON-LT" time="0.221">
+<testsuite name="qotd.QuoteSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-05-28T00:59:19" hostname="BROON-LT" time="0.184">
   <properties/>
-  <testcase name="test for valid quote text" classname="qotd.QuoteSpec" time="0.205"/>
-  <testcase name="test for null text" classname="qotd.QuoteSpec" time="0.006">
-    <failure message="Condition not satisfied:&#10;&#10;!x.validate()&#10;|| |&#10;|| true&#10;|qotd.Quote : (unsaved)&#10;false&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
-
-!x.validate()
-|| |
-|| true
-|qotd.Quote : (unsaved)
-false
-
-	at qotd.QuoteSpec.test for null text(QuoteSpec.groovy:31)
-</failure>
-  </testcase>
-  <testcase name="test for legal text" classname="qotd.QuoteSpec" time="0.009"/>
+  <testcase name="test for valid quote text" classname="qotd.QuoteSpec" time="0.175"/>
+  <testcase name="test for null text" classname="qotd.QuoteSpec" time="0.004"/>
+  <testcase name="test for legal text" classname="qotd.QuoteSpec" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
