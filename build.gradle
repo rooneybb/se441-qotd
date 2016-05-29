@@ -27,6 +27,7 @@ apply plugin:"org.grails.grails-gsp"
 apply plugin:"asset-pipeline"
 apply plugin:"maven"
 apply plugin:"org.sonarqube"
+apply plugin: "java"
 compileGroovy {
 targetCompatibility = '1.7'
 }
