@@ -49,8 +49,13 @@ environments:
                 testOnReturn: false
                 jdbcInterceptors: ConnectionState
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
-            
+        grails:
+            plugin:
+                databasemigration:
+                    updateOnStart: true
+                    updateOnStartFileNames: [changelog.groovy]
 
+            
 ---
 ---
 grails:
@@ -60,10 +65,6 @@ grails:
     spring:
         transactionManagement:
             proxies: false
-    plugin:
-        databasemigration:
-            updateOnStart: true
-            updateOnStartFileNames: [changelog.groovy]
 info:
     app:
         name: '@info.app.name@'
